@@ -1,5 +1,5 @@
 # react-word-counter
-< [Demo](https://co851002.github.io/word-counter/)
+> [Demo](https://co851002.github.io/word-counter/)
 ## Build Setup
 
 ``` bash
