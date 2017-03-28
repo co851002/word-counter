@@ -1,6 +1,5 @@
 body {
   font-family: sans-serif; }
-<<<<<<< HEAD
   body #root {
     background-color: #f5f5f5; }
     body #root .app {
@@ -64,48 +63,6 @@ body {
       color: #222222;
       -webkit-transition: 0.7s;
       transition: 0.7s; }
-=======
-  body .app {
-    text-align: center;
-    font-size: 1em; }
-  body .app-logo {
-    animation: app-logo-spin infinite 20s linear;
-    height: 80px; }
-  body .header {
-    background-color: #222;
-    padding: 20px;
-    color: white; }
-  body .intro {
-    font-size: 1.5rem;
-    font-weight: 600;
-    display: inline-block;
-    line-height: 2em; }
-  body button {
-    margin: 20px; }
-  body .warning {
-    color: red; }
-  body .counter-results {
-    margin-top: 20px; }
-    body .counter-results div {
-      display: inline; }
-  body .results-table {
-    margin-top: 20px; }
-    body .results-table div {
-      margin: 5px; }
-    body .results-table table thead tr th {
-      text-align: center; }
-  body footer span {
-    display: block;
-    padding: 0 0 10px; }
-  body footer a {
-    color: #000;
-    text-decoration: none; }
-  body footer a:active,
-  body footer a:hover {
-    color: #24c3b1;
-    -webkit-transition: 0.7s;
-    transition: 0.7s; }
->>>>>>> e8b1d0dff3f0d10a5d73a94014753e32152d9505
 
 @keyframes app-logo-spin {
   from {

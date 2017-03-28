@@ -14,15 +14,15 @@ npm run build
 
 ### Display a user given string in a table and List the word, comma and fullstop count.
 
-## Live demo
+## [Live demo] {https://co851002.github.io/word-counter/}
 
-https://co851002.github.io/rwc/
+[https://co851002.github.io/word-counter/]{https://co851002.github.io/word-counter/}
 
 ## Usage
 
 ### Clone
 
-https://github.com/co851002/rwc
+[https://github.com/co851002/word-counter]{https://github.com/co851002/word-counter}
 
 ### Install
 

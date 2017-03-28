@@ -11,14 +11,18 @@ class ResultsTable extends React.Component {
       <div id="myTable" className="table-responsive">
         <table id="word-table" className="table table-bordered">
             <thead id="thead">
-              {tableHeader.map((tableHeader) =>
+              <tr>
+                {tableHeader.map((tableHeader) =>
                 <td key={tableHeader}>{tableHeader}</td>
               )}
+            </tr>
             </thead>
             <tbody id="tbody">
-              {Object.keys(wordList).map((index, value) =>
-                <td key={index}>{wordList[value]}</td>
-              )}
+              <tr>
+                {Object.keys(wordList).map((index, value) =>
+                  <td key={index}>{wordList[value]}</td>
+                )}
+              </tr>
             </tbody>
         </table>
       </div>
