@@ -1,0 +1,114 @@
+body {
+  font-family: sans-serif; }
+<<<<<<< HEAD
+  body #root {
+    background-color: #f5f5f5; }
+    body #root .app {
+      text-align: center;
+      font-size: 1em;
+      background-color: #f5f5f5;
+      height: 100vh; }
+    body #root .logo {
+      animation: app-logo-spin infinite 2s linear;
+      height: 40px;
+      display: inline;
+      margin-top: -10px; }
+    body #root .header {
+      background-color: #222;
+      padding: 20px;
+      color: white; }
+      body #root .header h3 {
+        display: inline; }
+    body #root .intro {
+      font-size: 1.5rem;
+      font-weight: 600;
+      display: inline-block;
+      line-height: 2em; }
+    body #root .input-box {
+      margin-top: 20px; }
+      body #root .input-box form {
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1); }
+      body #root .input-box a {
+        margin: 20px;
+        color: #fff;
+        background-color: #222;
+        border-radius: 0; }
+      body #root .input-box a:active,
+      body #root .input-box a:hover {
+        color: #222222;
+        background-color: #f5f5f5;
+        -webkit-transition: 0.7s;
+        transition: 0.7s; }
+      body #root .input-box .warning {
+        color: red;
+        height: 1em;
+        line-height: 0.8; }
+      body #root .input-box .counter-results {
+        margin-bottom: 20px; }
+        body #root .input-box .counter-results div {
+          display: inline; }
+    body #root .table-responsive {
+      margin-top: 20px; }
+      body #root .table-responsive div {
+        margin: 5px; }
+      body #root .table-responsive table thead tr th {
+        text-align: center; }
+    body #root footer span {
+      display: block;
+      padding: 0 0 10px; }
+    body #root footer a {
+      color: #000;
+      text-decoration: none; }
+    body #root footer a:active,
+    body #root footer a:hover {
+      color: #222222;
+      -webkit-transition: 0.7s;
+      transition: 0.7s; }
+=======
+  body .app {
+    text-align: center;
+    font-size: 1em; }
+  body .app-logo {
+    animation: app-logo-spin infinite 20s linear;
+    height: 80px; }
+  body .header {
+    background-color: #222;
+    padding: 20px;
+    color: white; }
+  body .intro {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: inline-block;
+    line-height: 2em; }
+  body button {
+    margin: 20px; }
+  body .warning {
+    color: red; }
+  body .counter-results {
+    margin-top: 20px; }
+    body .counter-results div {
+      display: inline; }
+  body .results-table {
+    margin-top: 20px; }
+    body .results-table div {
+      margin: 5px; }
+    body .results-table table thead tr th {
+      text-align: center; }
+  body footer span {
+    display: block;
+    padding: 0 0 10px; }
+  body footer a {
+    color: #000;
+    text-decoration: none; }
+  body footer a:active,
+  body footer a:hover {
+    color: #24c3b1;
+    -webkit-transition: 0.7s;
+    transition: 0.7s; }
+>>>>>>> e8b1d0dff3f0d10a5d73a94014753e32152d9505
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
